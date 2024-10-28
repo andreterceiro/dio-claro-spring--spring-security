@@ -130,3 +130,20 @@ Teacher teached us that you can specify the HTTP method allowed:
 ![images/expliciting-HTTP-method.png](images/expliciting-HTTP-method.png)
 
 In the like 20 you can see how to specity a specific HTTP method and in the line 19 you can see how to specify a route that do not need authentication (`permitAll`).
+
+
+## Using database in authentication process
+
+I added `Spring Data JPA` and `H2 database` as dependencies in `pom.xml` this way under `dependencies` tag:
+
+```
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+```
