@@ -128,3 +128,5 @@ To be more clear, please see the file eddited by teacher. He eddited only the fi
 Teacher teached us that you can specify the HTTP method allowed:
 
 ![images/expliciting-HTTP-method.png](images/expliciting-HTTP-method.png)
+
+In the like 20 you can see how to specity a specific HTTP method and in the line 19 you can see how to specify a route that do not need authentication (`permitAll`).
