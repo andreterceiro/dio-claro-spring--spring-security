@@ -11,6 +11,8 @@ Github [repository link](https://github.com/digitalinnovationone/dio-springboot)
 
 ![enabling Spring security](images/enabling-spring-secutity.png)
 
+This is how I generated the project in [[http://start.spring.io](http://start.spring.io)]
+
 
 ## Project generated
 
