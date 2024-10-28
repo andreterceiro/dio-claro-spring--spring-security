@@ -258,18 +258,3 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 As you can saw, User.java model is a `class` and UserRepository.java repository is an `interface`.
 
 I am not tested all things of the class related to configure an authentication using a database. I explain better in [this video](https://youtu.be/3PbhwCuIxv0).
-
-
-## JWT
-
-JWT = **`J`SON** `Web Token`. Pay attention: **JSON**.
-
-Introduction / summary of JWT:
-
-![introduction-jwt](images/introduction-jwt.png)
-
-Related to the content of the `header` and the `payload` you cam see this examples:
-
-![header example - JWT](images/header-example.png)
-
-![payload example - JWT](images/payload-example.png)
