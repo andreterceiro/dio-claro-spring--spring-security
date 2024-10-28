@@ -11,10 +11,12 @@ Github [repository link](https://github.com/digitalinnovationone/dio-springboot)
 
 ![enabling Spring security](images/enabling-spring-secutity.png)
 
-This is how I generated the project in [[http://start.spring.io](http://start.spring.io)]
-
 
 ## Project generated
+
+This is how I generated the project in [[http://start.spring.io](http://start.spring.io)]:
+
+![project generated](images/project-generated.png)
 
 I generated the project of the file `project-generated-with-initializr.zip` and unpacked the files in the root directory.
 
