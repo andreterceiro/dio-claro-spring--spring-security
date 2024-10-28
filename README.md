@@ -48,3 +48,8 @@ spring.security.user.name=user
 spring.security.user.password=password
 spring.security.user.roles=USERS
 ```
+
+
+## Simple authentication in memory
+
+Teacher enabled a simple authentication in memory this way. This involves deprecated things nowdays, so I only made [this video](https://youtu.be/3Vg_elM7KXw) about this thing. 
