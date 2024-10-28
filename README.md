@@ -26,7 +26,7 @@ I also has to create the file `application.properties` in the root directory wit
 server.port=8081
 ```
 
-After, I runned the commands:
+After, I ran the commands:
 
 ```
 mvn install
@@ -112,4 +112,4 @@ I only eddited this two files until now. Until now, with the user "user":
 - I get an HTTP error status 403 when I access:
   - /managers
 
-  I made [this video](https://youtu.be/H-jyFpcq9LQ) about this question.
+I made [this video](https://youtu.be/H-jyFpcq9LQ) about this question.
