@@ -124,3 +124,7 @@ In summary, teacher transfered the access control based in roles after the user 
 To be more clear, please see the file eddited by teacher. He eddited only the first method:
 
 ![images/WebSecurityConfig-java.png](images/WebSecurityConfig-java.png)
+
+Teacher teached us that you can specify the HTTP method allowed:
+
+![images/expliciting-HTTP-method.png](images/expliciting-HTTP-method.png)
