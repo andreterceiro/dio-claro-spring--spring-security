@@ -121,6 +121,6 @@ Teacher teached about `WebSecurityConfigurerAdapter` but now (is not the guilty 
 
 In summary, teacher transfered the access control based in roles after the user is authenticated from the controller for a specific config class. In particular, to me is better to mantain this configuration in the controller. Is a simple annotation and you wiil not need to open another file. You will need to **this part** of configuration only accessing the controller file.
 
-To be more clear, please see the file eddited by teacher. He eddited only the firt method:
+To be more clear, please see the file eddited by teacher. He eddited only the first method:
 
 ![images/WebSecurityConfig-java.png](images/WebSecurityConfig-java.png)
