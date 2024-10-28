@@ -41,4 +41,10 @@ To use the default user (who is `"user"`), please locate the password in the con
 
 ![default password](images/default-password.png)
 
+To created a hardcoded (not recommended, only to simplify) user and password, please insert this configuration in the `application.properties` file:
 
+```
+spring.security.user.name=user
+spring.security.user.password=password
+spring.security.user.roles=USERS
+```
