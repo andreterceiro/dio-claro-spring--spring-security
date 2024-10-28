@@ -35,6 +35,10 @@ mvn spring-boot:run
 
 In the root link I saw this page after Spring Boot was receiving requests:
 
-![](images/initial-page.png)
+![initial page](images/initial-page.png)
+
+To use the default user (who is `"user"`), please locate the password in the console:
+
+![default password](images/default-password.png)
 
 
