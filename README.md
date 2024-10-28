@@ -117,4 +117,4 @@ I made [this video](https://youtu.be/H-jyFpcq9LQ) about this question.
 
 ## WebSecurityConfigurerAdapter
 
-Teacher teached about `WebSecurityConfigurerAdapter` but now (is not the guilty of the teacher) is deprecated as you can see [in this link](https://cursos.alura.com.br/forum/topico-websecurityconfigureradapter-deprecated-222772). I can't import a class that is used in inheritance to complete the testing process.
+Teacher teached about `WebSecurityConfigurerAdapter` but now (is not the guilty of the teacher) is deprecated as you can see [in this link](https://cursos.alura.com.br/forum/topico-websecurityconfigureradapter-deprecated-222772). I can't import a class that is used in inheritance to complete the testing process. In this link you can see what to do as alternative, but I did not test this suggestion.
