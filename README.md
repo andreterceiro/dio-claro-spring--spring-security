@@ -7,6 +7,30 @@ Class [link](https://web.dio.me/course/adicionando-seguranca-a-uma-api-rest-com-
 Github [repository link](https://github.com/digitalinnovationone/dio-springboot)
 
 
-# Enabling
+## Enabling
 
 ![enabling Spring security](images/enabling-spring-secutity.png)
+
+
+## Project generated
+
+I generated the project of the file `project-generated-with-initializr.zip` and unpacked the files in the root directory.
+
+I also has to create the file `application.properties` in the root directory with this content:
+
+```
+server.port=8081
+```
+
+After, I runned the commands:
+
+```
+mvn install
+mvn spring-boot:run
+```
+
+In the root link I saw this page after Spring Boot was receiving requests:
+
+![](images/initial-page.png)
+
+
