@@ -254,3 +254,5 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     public User findByUsername(@Param("username") String username);
 }
 ```
+
+As you can saw, User.java model is a `class` and UserRepository.java repository is an `interface`.
