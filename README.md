@@ -147,3 +147,9 @@ I added `Spring Data JPA` and `H2 database` as dependencies in `pom.xml` this wa
 			<scope>runtime</scope>
 		</dependency>
 ```
+
+Obviously, after I ran this command:
+
+```
+mvn install
+```
