@@ -111,3 +111,5 @@ I only eddited this two files until now. Until now, with the user "user":
   - /users
 - I get an HTTP error status 403 when I access:
   - /managers
+
+  I made [this video](https://youtu.be/H-jyFpcq9LQ) about this question.
