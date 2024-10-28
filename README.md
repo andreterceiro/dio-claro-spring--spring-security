@@ -267,3 +267,9 @@ JWT = **`J`SON** `Web Token`. Pay attention: **JSON**.
 Introduction / summary of JWT:
 
 ![introduction-jwt](images/introduction-jwt.png)
+
+Related to the content of the `header` and the `payload` you cam see this examples:
+
+![header example - JWT](images/header-example.png)
+
+![payload example - JWT](images/payload-example.png)
