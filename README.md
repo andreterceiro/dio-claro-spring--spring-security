@@ -118,3 +118,9 @@ I made [this video](https://youtu.be/H-jyFpcq9LQ) about this question.
 ## WebSecurityConfigurerAdapter
 
 Teacher teached about `WebSecurityConfigurerAdapter` but now (is not the guilty of the teacher) is deprecated as you can see [in this link](https://cursos.alura.com.br/forum/topico-websecurityconfigureradapter-deprecated-222772). I can't import a class that is used in inheritance to complete the testing process. In this link you can see what to do as alternative, but I did not test this suggestion.
+
+In summary, teacher transfered the access control based in roles after the user is authenticated from the controller for a specific config class. In particular, to me is better to mantain this configuration in the controller. Is a simple annotation and you wiil not need to open another file. You will need to **this part** of configuration only accessing the controller file.
+
+To be more clear, please see the file eddited by teacher. He eddited only the firt method:
+
+![images/WebSecurityConfig-java.png](images/WebSecurityConfig-java.png)
