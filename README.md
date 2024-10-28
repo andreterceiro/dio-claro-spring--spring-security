@@ -58,3 +58,56 @@ Teacher enabled a simple authentication in memory this way. This involves deprec
 ## Cryptography options
 
 ![cryptography options](images/cryptography-options.png)
+
+
+## Controlling access by roles
+
+I generated this controller:
+
+```
+package dio.spring.security.controllers;
+
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@EnableGlobalMethodSecurity(prePostEnabled = true)
+public class WelcomeController {
+    @GetMapping
+    @PreAuthorize("hasAnyRole('managers', 'users')")
+    public String welcome(){
+        return "Welcome to My Spring Boot Web API";
+    }
+
+    @PreAuthorize("hasAnyRole('users')")
+    @GetMapping("/users")
+    public String users() {
+        return "Authorized user";
+    }
+
+    @PreAuthorize("hasAnyRole('managers')")
+    @GetMapping("/managers")
+    public String managers() {
+        return "Authorized manager";
+    }
+}
+```
+
+And I have this `application.properties`:
+
+```
+server.port=8081
+spring.security.user.name=user
+spring.security.user.password=password
+spring.security.user.roles=users
+```
+
+I only eddited this two files until now. Until now, with the user "user":
+
+- I can access the routes:
+  - /
+  - /users
+- I get an HTTP error status 403 when I access:
+  - /managers
